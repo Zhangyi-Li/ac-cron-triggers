@@ -16,7 +16,7 @@ export default {
         const updateAPI = async () => {
           try {
             const response = await fetch(
-              "https://user.acceclaim.com/api/testMail",
+              "https://user.acceclaim.com/api/mail/sendDailyReviewMail",
               {
                 method: "POST",
                 headers: {
